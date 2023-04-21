@@ -38,6 +38,10 @@ h3 {
   color: gray;
 }
 
+#Certification h3 {
+  color: gray;
+}
+
 /* Portafolio */
 #Portfolio .card-img {
   overflow: hidden;
