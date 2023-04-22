@@ -39,6 +39,14 @@ h3 {
 /* About-me section */
 #About-me h2 {
   color: white;
+  padding-bottom: 0;
+}
+
+#About-me .card {
+  margin: auto;
+  width: 80%;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 /* Education section */
@@ -61,7 +69,7 @@ h3 {
 }
 
 /* Portfolio section */
-.card {
+#Portfolio .card {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
