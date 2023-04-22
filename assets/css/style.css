@@ -47,6 +47,16 @@ h3 {
 }
 
 #Certification h3 {
+  color: black;
+}
+
+/* Experience section */
+#Experience h2,
+h3 {
+  color: white;
+}
+
+#Experience p {
   color: gray;
 }
 
