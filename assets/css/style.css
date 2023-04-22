@@ -42,19 +42,28 @@ h3 {
 }
 
 /* Portafolio */
-#Portfolio .card-img {
+.card {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.card-img {
   overflow: hidden;
 }
 
-#Portfolio .image-top {
+.card-img img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
   height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+}
+
+.image-top {
   overflow: hidden;
 }
 
-#Portfolio .image-top:hover {
+.image-top:hover {
   transform: scale(1.3);
   transition: all 0.5s ease-in-out;
   -webkit-transform: scale(1.3);
