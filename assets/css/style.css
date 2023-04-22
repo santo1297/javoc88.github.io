@@ -4,7 +4,7 @@ body {
 
 /* Navbar */
 .navbar a {
-  color: white !important;
+  color: white;
 }
 
 /* Header */
@@ -12,6 +12,10 @@ body {
 h3 {
   font-weight: bolder;
   color: white;
+}
+
+#Hero-Section p {
+  color: gray;
 }
 
 #Hero-Section {
@@ -32,7 +36,12 @@ h3 {
   border: 2px solid gray;
 }
 
-/* Educación */
+/* About-me section */
+#About-me h2 {
+  color: white;
+}
+
+/* Education section */
 #Education h3 {
   color: gray;
 }
@@ -41,7 +50,7 @@ h3 {
   color: gray;
 }
 
-/* Portafolio */
+/* Portfolio section */
 .card {
   display: flex;
   flex-flow: wrap;
