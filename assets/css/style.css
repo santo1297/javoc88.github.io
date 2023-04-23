@@ -86,11 +86,11 @@ h3 {
   height: 250px;
 }
 
-.image-top {
+.image-fluid {
   overflow: hidden;
 }
 
-.image-top:hover {
+.image-fluid:hover {
   transform: scale(1.3);
   transition: all 0.5s ease-in-out;
   -webkit-transform: scale(1.3);
